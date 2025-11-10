@@ -83,3 +83,18 @@ footer {
 .companyLogo {
     margin-bottom: 0px;
 }
+.grillTextBox {
+    background-color: white;
+    width: 100%;
+    max-width: 950px;
+    height: 100%;
+    margin-right: 0px;
+    padding: 0px;
+}
+.novaScotia {
+    object-fit: cover;
+}
+
+.ourTeam {
+    background-color: white;
+}
