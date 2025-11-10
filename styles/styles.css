@@ -8,28 +8,78 @@ body {
 }
 
 .fugaz-one-regular {
-  font-family: "Fugaz One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5F002B;
+    text-decoration: none;
 }
 
 .topLink {
     color: #5F002B;
-  text-decoration: none;
-  padding: 20px;
+    text-decoration: none;
+    padding: 20px;
 }
 
 .homeHero {
-height: 600px;
-width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 0px;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
 }
 
 .navbar {
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 14px;
+}
+
+.homeCont {
+    margin-top: 100px;
+}
+
+.muzzlesTextBox {
+    background-color: white;
+    width: 100%;
+    max-width: 950px;
+    height: 265px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.homeImage {
+    width: 100%;
+    max-width: 950px;
+}
+
+.homeSingle {
+    width: 674px;
+    max-width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+h1 {
+    padding-top: 24px;
+    padding-left: 40px;
+}
+
+p {
+    font-weight: 100;
+    font-style: thin;
+    color: #5F002B;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 64px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.companyLogo {
+    margin-bottom: 0px;
 }
