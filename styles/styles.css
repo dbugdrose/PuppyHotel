@@ -22,11 +22,11 @@ body {
 
 .navbar-nav {
 display: flex !important;
-justify-content: end !important
+justify-content: end !important;
 }
 
 .homeHero {
-    height: 600px;
+    height: auto;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ footer {
 
 
 
-@media (max-width: 872px) {
+@media (max-width: 888px) {
     .navbar {
         display: flex;
         justify-content: center;
