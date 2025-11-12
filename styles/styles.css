@@ -2,7 +2,6 @@ body {
     background-image: url("/assets/bgtexture.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     padding: 0px;
     margin: 0px;
 }
@@ -381,21 +380,28 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     h1 {
         font-size: 26px;
     }
     .homeImage {
         display: none;
     }
-    .homeCont {
-        margin-top: -30px;
-    }
+
     footer {
         display: block;
         align-items: center;
     }
 
+}
+
+@media (max-width: 767px) {
+        .homeCont {
+        margin-top: -30px;
+    }
+    }
+.topLink, a:hover {
+    padding: 15px;
 }
 
 @media (max-width: 1199px) {
