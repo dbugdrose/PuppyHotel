@@ -11,6 +11,8 @@ body {
     background-repeat: repeat;
     padding: 0px;
     margin: 0px;
+    font-family: "Montauk", sans-serif;
+    color: #5F002B;
 }
 
 .fugaz-one-regular {
@@ -665,10 +667,5 @@ hr{
 }
 .pad{
     padding: 40px;
-}
-.Montauk{
-    font-family: "Montauk", sans-serif;
-    color: #5F002B;
-
 }
 
