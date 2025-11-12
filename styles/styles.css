@@ -40,11 +40,12 @@ width: 100%;
   margin: 2rem 0; 
 }
 */
-.container{
+.catering-header{
 
 background-color: white;
 width: 100%;
  color: #5F002B;
+ max-width: 1200px;
 /* max-width: 1200px;*/
 
 
@@ -76,13 +77,17 @@ width:100% ;
 }
 
 
-
+.catering-header {
+  max-width: 1230px;
+}
 
 
 .my{
 
   height: 500px;
   width: 100%;
+
+  padding-left: 0;
 }
 
 .article{
@@ -117,6 +122,7 @@ height: 500px;
   width: 100%;       
   height: 200px;             
   object-fit: cover;  
+max-width: 1200;
          
 }*/
 
@@ -130,7 +136,7 @@ height: 500px;
   width: 100%;            
   height: auto;  
  background-color: white; 
- 
+
 }  
 
 
@@ -150,5 +156,18 @@ margin-top: 20px;
 
 }
 
+.image-photos{
 
+background-color: white;
+width: 100%;
+ color: #5F002B;
+ max-width: 1200px;
+
+}
+
+.image-container{
+
+
+  
+}
 /* photo page end*/
