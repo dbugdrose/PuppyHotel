@@ -165,9 +165,9 @@ width: 100%;
 
 }
 
-.image-container{
+.img-border{
 
-
+border: 15px solid #dee2e6!important
   
 }
 /* photo page end*/
