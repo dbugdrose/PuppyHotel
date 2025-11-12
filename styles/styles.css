@@ -96,7 +96,7 @@ footer {
     margin-right: 0px;
     padding: 0px;
 }
-.novaScotia {
+.aboutMain {
     object-fit: cover;
 }
 
@@ -104,11 +104,16 @@ footer {
     background-color: white;
 }
 
+.about-grid {
+ display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
 
-
-
-
-
+.card {
+    grid-column: auto;
+    grid-row: auto;
+}
 
 
 
@@ -395,9 +400,16 @@ footer {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
         .homeCont {
         margin-top: -30px;
+    }
+    .about-grid {
+ display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;    }
+    .card {
+        grid-column: auto;
     }
     }
 .topLink, a:hover {
@@ -417,4 +429,16 @@ footer {
     margin-left: 15px;
     margin-right: 15px;
 }
+}
+@media (max-width: 450px) {
+.topLink {
+    font-size: 12px;
+}
+        .about-grid {
+ display: grid;
+    column-gap: 0px;
+    grid-template-columns: 1fr;    }
+    .card {
+        grid-column: auto;
+    }
 }
