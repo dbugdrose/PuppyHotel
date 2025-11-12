@@ -1,3 +1,10 @@
+    @font-face {
+      font-family: 'Montauk';
+      src: url('../fonts/Montauk-Regular.otf') format('otf');
+    }
+
+
+
 body {
     background-image: url("/assets/bgtexture.jpg");
     width: 100%;
@@ -445,3 +452,223 @@ footer {
         grid-column: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headingBox{
+     width: 92%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    margin-bottom: 3%;
+    margin-left:4%;
+    margin-right: 4%; 
+    padding: 1rem;
+
+}
+.menuHeadText{
+    color: #5F002B;
+}
+/* .beefMarg{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 4rem;
+} */
+/* .shrimpMarg{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: -11rem;
+} */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+    height: 80rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    
+}
+.column-one{
+     /* width: 76.5rem;         */
+    /* height:50rem; */
+    background-color: #FFFFFF;
+    /* margin-left: 10.5rem; */
+}
+.column-two{
+    /* width: 76.5rem; */
+    /* height:50rem; */
+    background-color: #FFFFFF;
+    /* margin-left: -0.5rem; */
+}
+.priceAlign{
+    text-align: end;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #980051;
+    
+}
+.pad{
+    padding: 40px;
+}
+.Montauk{
+    font-family: "Montauk", sans-serif;
+    color: #5F002B;
+
+}
+
