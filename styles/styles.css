@@ -400,18 +400,21 @@ footer {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
         .homeCont {
         margin-top: -30px;
     }
-    .about-grid {
+    }
+
+@media (max-width: 768px) {
+        .about-grid {
  display: grid;
     column-gap: 10px;
     grid-template-columns: 1fr 1fr;    }
     .card {
         grid-column: auto;
     }
-    }
+}
 .topLink, a:hover {
     padding: 15px;
 }
