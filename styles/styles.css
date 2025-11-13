@@ -466,7 +466,7 @@ hr{
         display: grid;
         grid-template-columns: 1fr;
       }
-img{
+.imgNo{
     display: none;
 }
 } 
@@ -480,7 +480,7 @@ img{
         display: grid;
         grid-template-columns: 1fr;
       }
-    img{
+    .imgNo{
     display: none;
 } 
 
