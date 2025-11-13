@@ -28,12 +28,13 @@ body {
 }
 
 .topLink, a:hover {
-    color: #5F002B;
+    color: #5F002B !important;
 }
 
 .navbar-nav {
 display: flex !important;
 justify-content: end !important;
+background-color: none !important;
 }
 
 .homeHero {
