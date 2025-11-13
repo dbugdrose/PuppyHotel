@@ -73,6 +73,15 @@ justify-content: end !important;
     max-width: 100%;
     background-position: center;
     object-fit: cover;
+    margin-right: 10px;
+
+}
+.col-44-percent {
+ width: 44% !important;
+}
+
+.col-54-percent {
+    width: 54% !important;
 }
 
 h1 {
@@ -93,7 +102,6 @@ p {
 footer {
     margin-top: 50px;
 }
-
 .companyLogo {
     margin-bottom: 0px;
 }
@@ -422,6 +430,16 @@ footer {
     grid-template-columns: 1fr 1fr;    }
     .card {
         grid-column: auto;
+    }
+    .col-44-percent {
+        width: 100% !important;
+    }
+
+    .col-54-percent {
+        width: 100% !important;
+    }
+    .homeSingle {
+        margin-right: 0px;
     }
 }
 .topLink, a:hover {
