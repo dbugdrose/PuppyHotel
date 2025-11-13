@@ -22,10 +22,13 @@ body {
     color: #5F002B;
     text-decoration: none;
 }
+.navbar-brand, .navbar-brand:hover {
+    padding: 0px !important;
+    margin: 0px !important;
+}
 
 .topLink, a:hover {
     color: #5F002B;
-    padding: 20px;
 }
 
 .navbar-nav {
