@@ -33,20 +33,13 @@ width: 100%;
     margin-left: 100px;
     margin-right: 100px;
 }
-/*catering section */
-/*.cat0-container-fluid,
-.cat1-container,
-.cat2-container {
-  margin: 2rem 0; 
-}
-*/
+
 .catering-header{
 
 background-color: white;
 width: 100%;
  color: #5F002B;
  max-width: 1200px;
-/* max-width: 1200px;*/
 
 
   
@@ -58,28 +51,43 @@ justify-content: flex-end;
 
 
 }
-/*.tit-container h2{
 
-  color: #5F002B;
-  width: 100px;
-}*/
 
 .cat0-container-fluid,
 .cat1-container
  {
   margin: 2rem auto;     
-  max-width: 1200px;     
-  /*padding: 1.rem;     
-  box-sizing: border-box; 
-  border-radius: 15px; */ 
-width:100% ;
+  max-width: 1200px;   
+  width:100% ;
  
 }
 
-
-.catering-header {
-  max-width: 1230px;
+.cat1-container {
+  max-width: 1230px;      /* overall container max width */
+  overflow: hidden;       /* clip overflow content */
+  display: flex;          /* use flexbox layout */
+  gap: 10px;              /* 10px gap between columns */
+  max-height: 300px;      /* limit container height */
 }
+
+.cat1-container .my,
+.cat1-container .article {
+  flex: 1 1 0;            /* allow both divs to grow/shrink equally */
+  max-height: 300px;      /* limit height for each column */
+  overflow: auto;         /* scroll content if needed */
+}
+
+.cat1-container img {
+  max-height: 300px;      /* limit image height */
+  width: 100%;            /* make image full width of container */
+  object-fit: cover;
+}
+
+.cat1-container .article {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 
 
 .my{
@@ -100,18 +108,13 @@ height: 500px;
 .cat2-container{
 
   margin: 2rem auto;     
-  max-width: 1200px;     
- /* padding: 1.5rem;      
-  box-sizing: border-box; 
-  border-radius: 15px;  */
+  /*max-width: 1200px;  */   
+ border-radius: 0 !important;
   width: 100%;
   
 }
 
-/*.cat0-container-fluid,
-.cat1-container, text col-12{
-  background-color: white;
-}*/
+
 .bg-color{
   background-color: white;
 }
@@ -124,7 +127,7 @@ height: 500px;
   object-fit: cover;  
 max-width: 1200;
          
-}*/
+}
 
 
 
@@ -136,8 +139,11 @@ max-width: 1200;
   width: 100%;            
   height: auto;  
  background-color: white; 
-
 }  
+
+.cat2-container.container {
+  max-width: 1270px; 
+}
 
 
 .cat1-container h3 {
@@ -151,7 +157,7 @@ margin-top: 20px;
 .cat1-container p {
 
   color: #5F002B;
-  font-size: 16px;
+  font-size: 10px;
  font-family: "Montauk", sans-serif;;
 
 }
@@ -174,9 +180,10 @@ border: 10px solid white!important
 
 
 
-.footer-desktop {
+/*.footer-desktop {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .footer-mobile {
@@ -185,11 +192,67 @@ border: 10px solid white!important
 }
 
 /* Show mobile layout below 991px width */
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   .footer-desktop {
     display: none;
   }
   .footer-mobile {
     display: block;
   }
+} */
+
+.footer {
+  width: 100%;
+ /* footer background */
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+/* Constrain footer content width to match Bootstrap container */
+.footer-desktop,
+.footer-mobile {
+  max-width: 1140px; /* Match your container width */
+  margin: 0 auto;
+  padding: 0 15px; /* Bootstrap container side padding */
+  box-sizing: border-box;
+}
+
+/* Desktop styles */
+.footer-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Mobile styles hidden on desktop by default */
+.footer-mobile {
+  display: none;
+  text-align: center;
+}
+
+/* Responsive: swap desktop and mobile footers */
+@media (max-width: 767.98px) {
+  .footer-desktop {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
+}
+
+/* Reset margins inside footer paragraphs */
+.footer-info p,
+.footer-logo p,
+.footer-mobile p {
+  margin: 4px 0;
+   font-family: "Montauk", sans-serif;;
+  color: #5F002B;
+}
+
+/* Align logo image vertically center with text */
+.footer-logo img,
+.footer-mobile img {
+  align-self: flex-end;
+  margin-right: 10px;
+  height: 20px;
 }
