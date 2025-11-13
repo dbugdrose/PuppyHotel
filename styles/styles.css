@@ -171,3 +171,25 @@ border: 10px solid white!important
   
 }
 /* photo page end*/
+
+
+
+.footer-desktop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-mobile {
+  display: none;
+  text-align: center;
+}
+
+/* Show mobile layout below 991px width */
+@media (max-width: 991px) {
+  .footer-desktop {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
+}
