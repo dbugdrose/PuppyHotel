@@ -39,17 +39,14 @@ width: 100%;
 background-color: white;
 width: 100%;
  color: #5F002B;
- max-width: 1200px;
+ max-width: 1220px;
 
 
   
 }
 .tit-row{
-
 display: flex;
 justify-content: flex-end;
-
-
 }
 
 
@@ -59,27 +56,26 @@ justify-content: flex-end;
   margin: 2rem auto;     
   max-width: 1200px;   
   width:100% ;
- 
-}
+ }
 
 .cat1-container {
-  max-width: 1230px;      /* overall container max width */
-  overflow: hidden;       /* clip overflow content */
-  display: flex;          /* use flexbox layout */
-  gap: 10px;              /* 10px gap between columns */
-  max-height: 300px;      /* limit container height */
+  max-width: 1210px;     
+   
+  display: flex;         
+  gap: 10px;              
+  max-height: 300px;   
 }
 
 .cat1-container .my,
 .cat1-container .article {
-  flex: 1 1 0;            /* allow both divs to grow/shrink equally */
-  max-height: 300px;      /* limit height for each column */
-  overflow: auto;         /* scroll content if needed */
+  flex: 1 1 0;            
+  max-height: 300px;      
+  overflow: auto;         
 }
 
 .cat1-container img {
-  max-height: 300px;      /* limit image height */
-  width: 100%;            /* make image full width of container */
+  max-height: 300px;      
+  width: 100%;            
   object-fit: cover;
 }
 
@@ -106,10 +102,8 @@ height: 500px;
 }
 .cat0-container-fluid,
 .cat2-container{
-
-  margin: 2rem auto;     
-  /*max-width: 1200px;  */   
- border-radius: 0 !important;
+margin: 2rem auto;     
+  border-radius: 0 !important;
   width: 100%;
   
 }
@@ -147,7 +141,6 @@ max-width: 1200;
 
 
 .cat1-container h3 {
-
 color: #5F002B;
 font-style: italic; 
 margin-top: 20px;
@@ -155,8 +148,7 @@ margin-top: 20px;
 }
 
 .cat1-container p {
-
-  color: #5F002B;
+   color: #5F002B;
   font-size: 10px;
  font-family: "Montauk", sans-serif;;
 
@@ -172,65 +164,38 @@ width: 100%;
 }
 
 .img-border{
-
-border: 10px solid white!important
-  
-}
-/* photo page end*/
-
-
-
-/*.footer-desktop {
-  display: flex;
-  justify-content: space-between;
-  
+border: 10px solid white!important  
 }
 
-.footer-mobile {
-  display: none;
-  text-align: center;
-}
-
-/* Show mobile layout below 991px width */
-/*@media (max-width: 991px) {
-  .footer-desktop {
-    display: none;
-  }
-  .footer-mobile {
-    display: block;
-  }
-} */
 
 .footer {
   width: 100%;
- /* footer background */
   padding: 20px 0;
   box-sizing: border-box;
 }
 
-/* Constrain footer content width to match Bootstrap container */
 .footer-desktop,
 .footer-mobile {
-  max-width: 1140px; /* Match your container width */
+  max-width: 1140px; 
   margin: 0 auto;
-  padding: 0 15px; /* Bootstrap container side padding */
+  padding: 0 15px; 
   box-sizing: border-box;
 }
 
-/* Desktop styles */
+
 .footer-desktop {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-/* Mobile styles hidden on desktop by default */
+
 .footer-mobile {
   display: none;
   text-align: center;
 }
 
-/* Responsive: swap desktop and mobile footers */
+
 @media (max-width: 767.98px) {
   .footer-desktop {
     display: none;
@@ -240,7 +205,7 @@ border: 10px solid white!important
   }
 }
 
-/* Reset margins inside footer paragraphs */
+
 .footer-info p,
 .footer-logo p,
 .footer-mobile p {
@@ -249,7 +214,7 @@ border: 10px solid white!important
   color: #5F002B;
 }
 
-/* Align logo image vertically center with text */
+
 .footer-logo img,
 .footer-mobile img {
   align-self: flex-end;
