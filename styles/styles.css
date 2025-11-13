@@ -1,34 +1,46 @@
+    @font-face {
+      font-family: 'Montauk';
+      src: url('../fonts/Montauk-Regular.otf') format('otf');
+    }
+
+
+
 body {
     background-image: url("/assets/bgtexture.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 100%;
+    background-repeat: repeat;
     padding: 0px;
     margin: 0px;
+    font-family: "Montauk", sans-serif;
+    color: #5F002B;
 }
 
 .fugaz-one-regular {
-  font-family: "Fugaz One", sans-serif;
+    font-family: "Fugaz One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #5F002B;
     text-decoration: none;
 }
 
-.topLink {
+.topLink, a:hover {
     color: #5F002B;
-  text-decoration: none;
-  padding: 20px;
+    padding: 20px;
+}
+
+.navbar-nav {
+display: flex !important;
+justify-content: end !important;
 }
 
 .homeHero {
-height: 600px;
-width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 0px;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
 }
 
 .navbar {
@@ -264,4 +276,645 @@ border: 10px solid white!important
     display: flex;
     flex-direction: column;
     align-items: flex-end;  
-} 
+    margin-top: 14px;
+}
+
+.homeCont {
+    margin-top: 100px;
+}
+
+.muzzlesTextBox {
+    background-color: white;
+    width: 100%;
+    max-width: 950px;
+    min-height: 265px;
+    max-height: 100%;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.homeImage {
+    width: 100%;
+    max-width: 950px;
+}
+
+.homeSingle {
+    width: 674px;
+    max-width: 100%;
+    background-position: center;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.col-44-percent {
+ width: 44% !important;
+}
+
+.col-54-percent {
+    width: 54% !important;
+}
+
+h1 {
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+p {
+    font-weight: 100;
+    font-style: thin;
+    color: #5F002B;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+.companyLogo {
+    margin-bottom: 0px;
+}
+.grillTextBox {
+    background-color: white;
+    width: 100%;
+    max-width: 950px;
+    height: 100%;
+    margin-right: 0px;
+    padding: 0px;
+}
+.aboutMain {
+    object-fit: cover;
+}
+
+.ourTeam {
+    background-color: white;
+}
+
+.about-grid {
+ display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 888px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 770px) {
+    h1 {
+        font-size: 26px;
+    }
+    .homeImage {
+        display: none;
+    }
+
+    footer {
+        display: block;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+        .homeCont {
+        margin-top: -30px;
+    }
+    }
+
+@media (max-width: 768px) {
+        .about-grid {
+ display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;    }
+    .card {
+        grid-column: auto;
+    }
+    .col-44-percent {
+        width: 100% !important;
+    }
+
+    .col-54-percent {
+        width: 100% !important;
+    }
+    .homeSingle {
+        margin-right: 0px;
+    }
+}
+.topLink, a:hover {
+    padding: 15px;
+}
+
+@media (max-width: 1199px) {
+.homeImage {
+    margin-top: -20px;
+}
+
+}
+
+@media (max-width: 992px) {
+.grillTextBox {
+    max-width: 690px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+}
+@media (max-width: 450px) {
+.topLink {
+    font-size: 12px;
+}
+        .about-grid {
+ display: grid;
+    column-gap: 0px;
+    grid-template-columns: 1fr;    }
+    .card {
+        grid-column: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headingBox{
+     width: 92%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    margin-bottom: 3%;
+    margin-left:4%;
+    margin-right: 4%; 
+    padding: 1rem;
+
+}
+.menuHeadText{
+    color: #5F002B;
+}
+/* .beefMarg{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 4rem;
+} */
+/* .shrimpMarg{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: -11rem;
+} */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+    height: 80rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    
+}
+.column-one{
+     /* width: 76.5rem;         */
+    /* height:50rem; */
+    background-color: #FFFFFF;
+    /* margin-left: 10.5rem; */
+}
+.column-two{
+    /* width: 76.5rem; */
+    /* height:50rem; */
+    background-color: #FFFFFF;
+    /* margin-left: -0.5rem; */
+}
+.priceAlign{
+    text-align: end;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #980051;
+    
+}
+.pad{
+    padding: 40px;
+}
+
+ 
