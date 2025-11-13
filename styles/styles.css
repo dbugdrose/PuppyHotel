@@ -138,21 +138,9 @@ margin: 2rem auto;
 }
 
 
-
-/*.pic-container .row .col-3 img {
-  margin: 8px;            
-  border-radius: 15px;   
-  border: 15px solid white; 
-  display: block;         
-  width: 100%;            
-  height: auto;  
- background-color: white; 
-}  */
-
 .cat2-container.container {
   max-width: 1270px; 
 }
-
 
 .cat1-container h3 {
  
@@ -189,34 +177,6 @@ width: 100%;
 border: 10px solid white!important  
 }
 
-/*
-.bottom {
-  width: 100%;
-  padding: 20px 0;
-  box-sizing: border-box;
-}
-
-.bottom-desktop,
-.bottom-mobile {
-  max-width: 1140px; 
-  margin: 0 auto;
-  padding: 0 15px; 
-  box-sizing: border-box;
-}
-
-
-.bottom-desktop {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-
-.bottom-mobile {
-  display: none;
-  text-align: center;
-}
-*/
 
 @media (max-width: 767.98px) {
   .bottom1-desktop {
