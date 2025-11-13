@@ -42,11 +42,13 @@ background-color: white;
 width: 100%;
  color: #5F002B;
  max-width: 1220px;
- font-family: "Montauk", sans-serif;
+
 
 
   
 }
+
+
 .tit-row{
 display: flex;
 justify-content: flex-end;
@@ -146,10 +148,10 @@ margin: 2rem auto;
 .cat1-container h3 {
  
     font-weight: 400;
-    font-style: normal;
+   
     color: #5F002B;
     text-decoration: none;
-    
+    font-style: italic;
 
 }
 
@@ -178,7 +180,7 @@ width: 100%;
 border: 10px solid white!important  
 }
 
-
+/*
 .bottom {
   width: 100%;
   padding: 20px 0;
@@ -205,13 +207,13 @@ border: 10px solid white!important
   display: none;
   text-align: center;
 }
-
+*/
 
 @media (max-width: 767.98px) {
-  .bottom-desktop {
+  .bottom1-desktop {
     display: none;
   }
-  .bottom-mobile {
+  .bottom1-mobile {
     display: block;
   }
 }
@@ -220,7 +222,7 @@ border: 10px solid white!important
 .bottom-info p,
 .bottom-logo p,
 .bottom-mobile p {
-  margin: 4px 0;
+  margin:0;
    font-family: "Montauk", sans-serif;;
   color: #5F002B;
 }
@@ -232,3 +234,34 @@ border: 10px solid white!important
   margin-right: 10px;
   height: 20px;
 }
+
+/* logo */
+.bottom1-logo p {
+    margin-bottom: 0%;  
+
+}
+
+.bottom1-desktop {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;   
+    margin: 0 auto;     
+    padding: 0 20px; 
+    font-family: "Montauk", sans-serif;;
+  color: #5F002B;
+       
+}
+
+.bottom1-info {
+    text-align: left;
+  
+ 
+}
+
+.bottom1-logo {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+} 
