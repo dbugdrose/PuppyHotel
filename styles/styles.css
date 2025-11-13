@@ -66,18 +66,18 @@ justify-content: flex-end;
    
   display: flex;         
   gap: 10px;              
-  max-height: 300px;   
+  max-height: 365px;   
 }
 
 .cat1-container .my,
 .cat1-container .article {
   flex: 1 1 0;            
-  max-height: 300px;      
+  max-height: 365px;      
   overflow: auto;         
 }
 
 .cat1-container img {
-  max-height: 300px;      
+  max-height: 365px;      
   width: 100%;            
   object-fit: cover;
 }
@@ -122,7 +122,7 @@ margin: 2rem auto;
   width: 100%;       
   height: 200px;             
   object-fit: cover;  
-max-width: 1200;
+  max-width: 1200;
          
 }
 
@@ -151,9 +151,14 @@ margin-top: 20px;
 }
 
 .cat1-container p {
-   color: #5F002B;
-  font-size: 10px;
- font-family: "Montauk", sans-serif;;
+   font-weight: 100;
+    font-style: thin;
+    color: #5F002B;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+   
 
 }
 
