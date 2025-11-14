@@ -8,24 +8,40 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <title>PUPPY HOTEL</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar fugaz-one-regular mb-4">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/MuzzlesLogo.png" width="250px" class="logo" height="92px" alt="Muzzles Logo">
-                <div class="d-flex justify-content-end">
-                    <a class="topLink " href="#about">About</a>
-                    <a class="topLink " href="#menu">Menu</a>
-                    <a class="topLink " href="#catering">Catering</a>
-                    <a class="topLink " href="#photos">Photos</a>
+      <nav class="navbar navbar-expand-lg navbar-light  mb-4">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/MuzzlesLogo.png" width="250px" class="logo" height="92px" alt="Muzzles Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="container-fluid">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-end mr-auto fugaz-one-regular">
+                        <li class="nav-item">
+                            <a class="nav-link topLink" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link topLink" href="/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link topLink" href="/catering.html">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link topLink" href="/photos.html">Photos</a>
+                        </li>
                     </ul>
-            </a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -39,154 +55,41 @@
 
     <div class="grid-container">
 
-        <div class="column-one">
-            <img src="/assets/menubeef.jpg" width="100%" alt="">
-<div class="pad">
-            <h1 class="fugaz-one-regular">Sandwiches</h1>
-            <p class="Montauk">All sandwiches come with an side of crispy fries</p>
-
-            <div class="row">
-                <div class="col Montauk">
-                <h1>Sizzling Steak Sandwiach</h1>
-                </div>
-                <div class="col-auto Montauk">
-                <h1>$15.99</h1>
-                </div>
-            </div>
-            <p>Open faced steak sandwich with grilled belle peppers and fried onions.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Tenderloin Sliders</h1>
-                </div>
-                <div class="col-auto">
-                <h1>$13.99</h1>
-            </div>
-        </div>
-            <p>Three beef tenderloin sliders with horseradish cream and blackberry bbq.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Classic Chicken Panini</h1>
-                </div>
-                <div class="col-auto">
-                <h1>$10.99</h1>
-            </div>
-        </div>
-            <p>Grilled chicken with Monterey jack, romaine lettuce, tomato, cilantro.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Smoked Turkey Club</h1>
-                </div>
-                <div class="col-auto">
-                <h1>$8.99</h1>
-            </div>
-        </div>
-            <p>Smoked deli turkey, maple bacon, cranberry aoili, lettuce and tomatoes.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Tuna Sandwich</h1>
-            </div>
-            <div class="col-auto">
-                <h1>$6.99</h1>
-            </div>
-        </div>
-            <p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
-            <hr>
-        </div>
-</div>
-
-
-        <div class="column-two">
-            <img src="/assets/menuseafood.jpg" width="100%" alt="">
+        <div class="column-one ">
+            <img src="/assets/menubeef.jpg" width="100%" alt="" class="imgNo">
             <div class="pad">
-            <h1 class="fugaz-one-regular">Seafood</h1>
-            <p>All seafood comes with a side of rice pilaf and grilled vegetables</p>
-
-            <div class="row">
-                <div class="col">
-                <h1>Honey Shrimp Skewers</h1>
-                </div>
-                <div class="col-auto">
-                <h1>$15.99</h1>
-            </div>
-        </div>
-            <p>Ten honey glazed shrimps grilled with sesame seeds and rosemary.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Grilled Salmon</h1>
-                </div>
-                <div class="col-auto">
-                <h1>$13.99</h1>
-            </div>
-        </div>
-            <p>Salmon grilled in a lime butter sauce.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Grilled Tilapia</h1>
-                </div>
-                <div class="col-auto">
-                <h1>$10.99</h1>
-            </div>
-        </div>
-            <p>A whole grilled tilapia cooked with smoked paprika.</p>
-            <hr>
-            <div class="row">
-                <div class="col">
-                <h1>Parmesan Fish Sticks</h1>
-            </div>
-            <div class="col-auto">
-                <h1>$8.99</h1>
-            </div>
-        </div>
-            <p>Sliced salmon in parmesan breading served with lemon dill tartar sauce.</p>
-            <hr>
-        </div>
-
-    </div>
-</div>
-
-    <div class="grid-container">
-
-        <div class="column-one">
-            <img src="/assets/menumeat.jpg" width="100%" alt="">
-            <div class="pad">
-                <h1 class="fugaz-one-regular">On the grill</h1>
-                <p>Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.</p>
+                <h1 class="fugaz-one-regular">Sandwiches</h1>
+                <p class="headFont">All sandwiches come with an side of crispy fries</p>
 
                 <div class="row">
-                    <div class="col">
-                        <h1>Baby Back - Full Rack</h1>
+                    <div class="col Montauk">
+                        <h1>Sizzling Steak Sandwiach</h1>
                     </div>
-                    <div class="col-auto">
-                        <h1>$19.99</h1>
+                    <div class="col-auto Montauk">
+                        <h1>$15.99</h1>
                     </div>
                 </div>
-                <p> A full rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                <p class="headFont">Open faced steak sandwich with grilled belle peppers and fried onions.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
-                        <h1>Baby Back - Half Rack</h1>
+                        <h1>Tenderloin Sliders</h1>
                     </div>
                     <div class="col-auto">
                         <h1>$13.99</h1>
                     </div>
                 </div>
-                <p>A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                <p class="headFont">Three beef tenderloin sliders with horseradish cream and blackberry bbq.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
-                        <h1>Boneless Ribeye</h1>
+                        <h1>Classic Chicken Panini</h1>
                     </div>
                     <div class="col-auto">
-                        <h1>$25.99</h1>
+                        <h1>$10.99</h1>
                     </div>
                 </div>
-                <p>A three inch thick boneless ribeye grilled in a rosemary rub and butter</p>
+                <p class="headFont">Grilled chicken with Monterey jack, romaine lettuce, tomato, cilantro.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
@@ -196,7 +99,7 @@
                         <h1>$8.99</h1>
                     </div>
                 </div>
-                <p>Smoked deli turkey, maple bacon, cranberry aoili, lettuce and tomatoes.</p>
+                <p class="headFont">Smoked deli turkey, maple bacon, cranberry aoili, lettuce and tomatoes.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
@@ -206,37 +109,37 @@
                         <h1>$6.99</h1>
                     </div>
                 </div>
-                <p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
-                <hr class="custom-line">
+                <p class="headFont">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                <hr>
             </div>
         </div>
 
 
         <div class="column-two">
-            <img src="/assets/menudesserts.jpg" width="100%" alt="">
+            <img src="/assets/menuseafood.jpg" width="100%" alt="" class="imgNo">
             <div class="pad">
-                <h1 class="fugaz-one-regular">Desserts</h1>
-                <p>A shot of esspresso can be added to any dessert for an additional $2.</p>
+                <h1 class="fugaz-one-regular">Seafood</h1>
+                <p class="headFont">All seafood comes with a side of rice pilaf and grilled vegetables</p>
 
-                <div class="row">
+                <div class="row ">
                     <div class="col">
-                        <h1>Double Walnut Brownies</h1>
+                        <h1>Honey Shrimp Skewers</h1>
                     </div>
                     <div class="col-auto">
-                        <h1>$8.99</h1>
+                        <h1>$15.99</h1>
                     </div>
                 </div>
-                <p>Two brownies with a walnut crust, ice cream and chocolate sauce.</p>
+                <p class="headFont">Ten honey glazed shrimps grilled with sesame seeds and rosemary.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
-                        <h1>Cheese Cake with Chocolate Sauce</h1>
+                        <h1>Grilled Salmon</h1>
                     </div>
                     <div class="col-auto">
                         <h1>$13.99</h1>
                     </div>
                 </div>
-                <p>Cheesecake with ice cream, chocolate shavings and chocolate sauce.</p>
+                <p class="headFont">Salmon grilled in a lime butter sauce.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
@@ -246,7 +149,7 @@
                         <h1>$10.99</h1>
                     </div>
                 </div>
-                <p>Grilled Tilapia A whole grilled tilapia cooked with smoked paprika.</p>
+                <p class="headFont">A whole grilled tilapia cooked with smoked paprika.</p>
                 <hr>
                 <div class="row">
                     <div class="col">
@@ -256,7 +159,121 @@
                         <h1>$8.99</h1>
                     </div>
                 </div>
-                <p>Parmesan Fish Sticks Sliced salmon in parmesan breading served with lemon dill tartar sauce.</p>
+                <p class="headFont">Sliced salmon in parmesan breading served with lemon dill tartar sauce.</p>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid-container2">
+
+        <div class="column-one">
+            <img src="/assets/menumeat.jpg" width="100%" alt="" class="imgNo">
+            <div class="pad">
+                <h1 class="fugaz-one-regular">On the grill</h1>
+                <p class="headFont">Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.</p>
+
+                <div class="row">
+                    <div class="col">
+                        <h1>Baby Back - Full Rack</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$19.99</h1>
+                    </div>
+                </div>
+                <p class="headFont"> A full rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Baby Back - Half Rack</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$13.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Boneless Ribeye</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$25.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">A three inch thick boneless ribeye grilled in a rosemary rub and butter</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Smoked Turkey Club</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$8.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">Smoked deli turkey, maple bacon, cranberry aoili, lettuce and tomatoes.</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Tuna Sandwich</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$6.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                <hr class="custom-line">
+            </div>
+        </div>
+
+
+        <div class="column-two">
+            <img src="/assets/menudesserts.jpg" width="100%" alt="" class="imgNo">
+            <div class="pad">
+                <h1 class="fugaz-one-regular">Desserts</h1>
+                <p class="headFont">A shot of esspresso can be added to any dessert for an additional $2.</p>
+
+                <div class="row">
+                    <div class="col">
+                        <h1>Double Walnut Brownies</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$8.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">Two brownies with a walnut crust, ice cream and chocolate sauce.</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Cheese Cake with Chocolate Sauce</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$13.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">Cheesecake with ice cream, chocolate shavings and chocolate sauce.</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Grilled Tilapia</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$10.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">Grilled Tilapia A whole grilled tilapia cooked with smoked paprika.</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1>Parmesan Fish Sticks</h1>
+                    </div>
+                    <div class="col-auto">
+                        <h1>$8.99</h1>
+                    </div>
+                </div>
+                <p class="headFont">Parmesan Fish Sticks Sliced salmon in parmesan breading served with lemon dill
+                    tartar sauce.</p>
                 <hr>
             </div>
 
