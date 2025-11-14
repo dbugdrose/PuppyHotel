@@ -78,6 +78,7 @@ justify-content: flex-end;
   margin: 2rem auto;     
   max-width: 1200px;   
   width:100% ;
+  
  }
 
 .cat1-container {
@@ -85,14 +86,16 @@ justify-content: flex-end;
    
   display: flex;         
   gap: 10px;              
-  max-height: 365px;   
+  max-height: 365px;  
+     
 }
 
 .cat1-container .my,
 .cat1-container .article {
   flex: 1 1 0;            
   max-height: 365px;      
-  overflow: auto;         
+  overflow: auto;     
+   
 }
 
 .cat1-container img {
@@ -104,6 +107,7 @@ justify-content: flex-end;
 .cat1-container .article {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  
 }
 
 
@@ -114,12 +118,15 @@ justify-content: flex-end;
   width: 100%;
 
   padding-left: 0;
+  
 }
+
 
 .article{
 
 height: 500px;
   width: 100%;
+  
 
 }
 .cat0-container-fluid,
@@ -546,3 +553,4 @@ hr{
 } 
 
 }
+
