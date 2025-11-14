@@ -1,3 +1,11 @@
+//Arianna Hunltey, Darcy Rose, Pallavi Pattanashetti
+
+//11/14/25
+
+//Puppy Resturant
+
+//We created a website recreating the blueprint of the puppy resturant and made it responsive
+
 //Dev Review:
 //Project: Puppy Restaurant
 //Developer: Jose Martinez
