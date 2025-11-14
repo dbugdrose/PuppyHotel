@@ -8,3 +8,11 @@
 * Page: 5 looks great. Fully responsive. Again just add hamburger menu on mobile sizes. Also links on nav are broken please fix. Make sure Nav menu looks the same across all pages, same with footer.
 
 Over all looks good just those minor fixes.
+
+* Review: Isaias Gonzalez
+ * Layout and responsiveness is good across all pages. Montauk font is missing across all pages.
+ * Home - Text seems like it needs padding.
+ * About - All good.
+ * Menu - Text seems really large.
+ * Catering - Logo link doesn't work. The heading has a lop-sided margin. The scrolling text area seems a bit weird for mobile.
+ * Photos - Logo link doesn't work. The single column of photos could be centered horizontally.
