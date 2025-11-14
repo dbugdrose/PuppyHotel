@@ -398,6 +398,11 @@ footer {
     margin-left: 15px;
     margin-right: 15px;
 }
+    .navbar-nav {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }
 @media (max-width: 450px) {
 .topLink {
