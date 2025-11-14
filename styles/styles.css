@@ -191,60 +191,6 @@
     }
 
 
-    /*.bottom-info p,
-.bottom-logo p,
-.bottom-mobile p {
-  margin:0;
-   font-family: "Montauk", sans-serif;;
-  color: #5F002B;
-}
-
-
-.bottom-logo img,
-.bottom-mobile img {
-  align-self: flex-end;
-  margin-right: 10px;
-  height: 20px;
-}
-@media (max-width: 576px) {
-  h2.menuHeadText {
-    font-size: 1.8rem;
-  }
-  p {
-    font-size: 0.95rem;
-  }
-}
-/* logo */
-    /*.bottom1-logo p {
-    margin-bottom: 0%;  
-
-}
-
-.bottom1-desktop {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    max-width: 1200px;   
-    margin: 0 auto;     
-    padding: 0 20px; 
-    font-family: "Montauk", sans-serif;;
-  color: #5F002B;
-       
-}
-
-.bottom1-info {
-    text-align: left;
-  
- 
-}
-
-.bottom1-logo {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;  
-    margin-top: 14px;
-}*/
 
     .homeCont {
         margin-top: 100px;
